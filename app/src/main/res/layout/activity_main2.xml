@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/stonewall"
+    android:id="@+id/layout"
+    android:layout_height="match_parent"
+    tools:context="com.elabs.bluetooth_application.Main2Activity">
+
+    <include layout="@layout/toolbarlayout"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="100dp"
+        android:text="FIGHT"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="casual"
+        android:id="@+id/fight"/>
+
+    <TextView
+        android:padding="50dp"
+        android:background="@drawable/timer_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="100dp"
+        android:text="10"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:fontFamily="casual"
+        android:id="@+id/timer"/>
+
+
+<TextView
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="60dp"
+    android:textSize="60dp"
+    android:layout_marginLeft="10dp"
+    android:textStyle="bold"
+    android:text=""
+    android:textColor="#ffffff"
+    android:id="@+id/mainText"
+
+    />
+
+</RelativeLayout>

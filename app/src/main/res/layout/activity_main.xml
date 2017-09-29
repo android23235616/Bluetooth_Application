@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.elabs.bluetooth_application.MainActivity">
+
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:src="@drawable/stonewall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:alpha="0.7"
+            android:layout_marginTop="50dp"
+            android:padding="25dp"
+            android:textStyle="bold"
+            android:textSize="60dp"
+
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="T A P P E R"
+            />
+
+        <ImageButton
+            android:id="@+id/host"
+            android:padding="15dp"
+
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bricks"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="HOST"
+            android:gravity="center"
+            />
+
+        <ImageButton
+
+            android:id="@+id/join"
+
+            android:padding="15dp"
+            android:layout_marginTop="150dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bricks"
+            />
+
+        <TextView
+            android:layout_marginTop="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="JOIN"
+            android:gravity="center"
+            />
+
+
+    </FrameLayout>
+
+</RelativeLayout>
